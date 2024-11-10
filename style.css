@@ -44,14 +44,14 @@ a {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.024),var(--color-background));
+    background: linear-gradient(rgba(0, 0, 0, 0.024),#030207);
     width: 100%;
     position: relative;
     min-height: 100vh;
     
 }
 
-.hero__background {
+.video__background {
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -160,6 +160,7 @@ footer {
         font-size: 0.9em;
         padding: 12px 25px;
     }
+    
 }
 
 @media (max-width: 480px) {
