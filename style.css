@@ -44,14 +44,14 @@ a {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.024),#030207);
+    background: linear-gradient(rgba(0, 0, 0, 0.024),var(--color-background));
     width: 100%;
     position: relative;
     min-height: 100vh;
     
 }
 
-.video__background {
+.hero__background {
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -149,27 +149,26 @@ footer {
     }
 
     .hero__title {
-        font-size: 4rem;
+        font-size: 4em;
     }
 
     .hero__text {
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     .btn-confirmar-presenca {
         font-size: 0.9em;
         padding: 12px 25px;
     }
-    
 }
 
 @media (max-width: 480px) {
     .hero__title {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .hero__text {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     .btn-confirmar-presenca {
